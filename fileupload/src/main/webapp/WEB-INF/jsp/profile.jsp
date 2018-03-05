@@ -9,12 +9,18 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
 </head>
 <body>
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">
+  <img src="Bootstrap2.png" width="50" height="50" class="d-inline-block align-top" alt="">
+    Image Upload
+  </a>
+</nav>
 <div class="container">
   <div class="row">
-    <div class="col-6">
-      <img alt="" src="${imgSrc}">
+    <div class="col-5">
+      <img alt="" src="${imgSrc}" height="300px" width="300px" >
     </div>
-    <div class="col-6">
+    <div class="col-7">
     <h3>Vikram Varoo</h3>
      <p> Hey,I am Vikram Varoo.I am a computer science graduate student at SUNY Albany.</p>
     </div>
